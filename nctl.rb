@@ -8,7 +8,7 @@ class Nctl < Formula
   depends_on :macos
 
   on_macos do
-    url "https://github.com/nirmata/go-nctl/releases/download/v0.0.0/nctl_0.0.0_darwin_all.tar.gz", :using => DownloadStrategy
+    url "https://nirmata-downloads.s3.us-east-2.amazonaws.com/nctl/nctl_3.4.0-rc2/nctl_3.4.0-rc2_macos_64-bit.zip", :using => DownloadStrategy
     sha256 "2d9843a781152a32d9544118cb7fb50dd430c51bf6afc731d982e35e8581d7bc"
 
     def install
