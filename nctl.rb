@@ -23,7 +23,7 @@ class Nctl < Formula
 
   on_macos do
     url "https://nirmata-downloads.s3.us-east-2.amazonaws.com/nctl/nctl_3.4.0-rc2/nctl_3.4.0-rc2_macos_64-bit.zip", :using => NctlDownloadStrategy
-    sha256 "2d9843a781152a32d9544118cb7fb50dd430c51bf6afc731d982e35e8581d7bc"
+    sha256 "c044e82369c11428e893728e2f411ce34b0d4a9be19a95a8d95e4c6535ea4695"
 
     def install
       bin.install "nctl"
